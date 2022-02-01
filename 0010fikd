@@ -1,0 +1,34 @@
+wait(2)
+
+local abc = Instance.new("ScreenGui")
+local loadbase = Instance.new("TextLabel")
+local loadabr = Instance.new("Frame")
+
+abc.Name = "abc"
+abc.Parent = game.CoreGui
+
+loadbase.Name = "loadbase" loadbase.Parent = game.CoreGui.abc loadbase.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647) loadbase.BorderSizePixel = 0 loadbase.Position = UDim2.new(0.325986087, 0, 0.372439474, 0) loadbase.Size = UDim2.new(0, 300, 0, 58) loadbase.Font = Enum.Font.Oswald loadbase.Text = "HawkHub Loader" loadbase.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314) loadbase.TextSize = 20
+
+loadabr.Name = "loadabr"
+loadabr.Parent = loadbase
+loadabr.BackgroundColor3 = Color3.new(1, 1, 1)
+loadabr.BorderSizePixel = 0
+loadabr.Position = UDim2.new(0, 0, 0.989463568, 0)
+loadabr.Size = UDim2.new(0, 1, 0, 2)
+wait(3)
+loadabr.Size = UDim2.new(0, 20, 0, 2)
+wait(2)
+loadabr.Size = UDim2.new(0, 69, 0, 2)
+wait(3)
+loadabr.Size = UDim2.new(0, 100, 0, 2)
+wait(2)
+loadabr.Size = UDim2.new(0, 140, 0, 2)
+wait(1)
+loadabr.Size = UDim2.new(0, 200, 0, 2)
+wait(2)
+loadabr.Size = UDim2.new(0, 260, 0, 2)
+wait(1)
+loadabr.Size = UDim2.new(0, 300, 0, 2)
+wait(4)
+loadabr.BackgroundColor3 = Color3.new(0, 1, 0.0666667)
+loadbase.Text = "Sucefully Loaded!"
